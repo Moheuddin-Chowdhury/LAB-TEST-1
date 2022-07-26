@@ -1,0 +1,121 @@
+.header1{
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+.column1 {
+    flex: 19%;
+    height: 150px;
+    margin: 2px;
+    background-color: #0becda;
+    text-align: center;
+  }
+.column2{
+    flex: 60%;
+    height: 150px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #0becda;
+    text-align: center;
+  }
+  .column3 {
+    flex: 19%;
+    height: 150px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #0becda;
+    text-align: center;
+  }
+  .header2{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+}
+.list{
+    flex: 16%;
+    height: 20px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #1943cc;
+    text-align: center;
+    
+}
+.list a{
+    color: azure;
+text-decoration: none;
+}
+
+.form label{
+    margin-top: 40px;
+    
+}
+.form input{
+    width: 200px;
+    margin-top: 10px;
+}
+.footer{
+        height: 300px;
+        width: 100%;
+        display: flex;
+}
+.footer .section{
+    flex: 48%;
+    margin: 5px;
+    background-color: rgb(218, 156, 156);
+}
+.register .label,input{
+    margin: 10px;
+}
+
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        height: 50px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      .images {
+        margin-top: 20px;
+      height: 200px;
+    width: 100%;
+    display: flex;
+      }
+      .images .a{
+       flex: 25px;
+       background-color: red;
+       margin: 5px;
+      }
+
+
+      input[type=text], select, textarea {
+        width: 50%; 
+        padding: 12px; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+      }
+      input[type=submit] ,button{
+        background-color: #076e49;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+    
